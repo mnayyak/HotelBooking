@@ -1,1 +1,3 @@
-angular.module('HotelBooking', ['ngRoute', 'appRoute']);
+angular.module('KeyPad', ['ngRoute', 'appRoute']);
+
+

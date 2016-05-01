@@ -1,0 +1,12 @@
+.keyPadButton {
+	width: 80px;
+	height:60px;
+
+}
+
+.inputText{
+	width: 270px;
+	position: absolute;
+	left : 30px;
+	top: -8px;
+}

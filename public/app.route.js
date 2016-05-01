@@ -1,10 +1,10 @@
-var publicAppRoute = angular.module('appRoute', ['ngRoute']);
+var publicAppRoute = angular.module('appRoute', ['ngRoute', 'mainController']);
 
 publicAppRoute.config(function ($routeProvider) {
 	// body...
 	$routeProvider
 
-	.when('/user', {
-		templateUrl: '/view/hotels.html'
+	.when('/keyPad', {
+		templateUrl: '/view/keyPad.html'
 	});
 });

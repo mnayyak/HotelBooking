@@ -1,0 +1,16 @@
+<div ng-controller="MainController">
+	<h1> This is a keyPad</h1>
+<div class="container">
+	<div class="col-sm-3">
+		<input type="text" class="inputText" ng-model="keyValue" style="left: 50 px height:25px">
+		<br>
+		<div ng-repeat="keys in keyElements" class="col-sm-3">
+			<button class="keyPadButton" ng-mousedown="longKeyPressed(keys)" ng-mouseup="keyPress(keys, keys.length)" >
+				{{ keys[0]}}
+				<br>
+				{{ keys.join('').slice(1)}}
+			</button>
+		</div>
+	</div>
+</div>
+</div>
